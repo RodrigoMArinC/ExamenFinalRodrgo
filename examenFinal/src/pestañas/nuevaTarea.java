@@ -335,7 +335,7 @@ public class nuevaTarea extends javax.swing.JFrame {
 
     private void btngenerarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btngenerarActionPerformed
         // TODO add your handling code here:
-        logica2 reporte = new logica2(txtencargado.getText(),new Date().toString(),personas,"C:\\Users\\Usuario\\Desktop\\Proga 1\\examenFinal\\src\\imagenes\\tareas.jpg");
+       Logica2 reporte = new Logica2(txtencargado.getText(),new Date().toString(),personas,"C:\\Users\\PC\\Downloads\\ExamenFinalRodrgo\\examenFinal");
        reporte.crearReporte();
        
        String []info=new String[3];
@@ -348,7 +348,7 @@ public class nuevaTarea extends javax.swing.JFrame {
 
     private void btnsalirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnsalirActionPerformed
         // TODO add your handling code here:
-        dispose();
+        System.exit(0);
     }//GEN-LAST:event_btnsalirActionPerformed
 
     private void btnabrirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnabrirActionPerformed
